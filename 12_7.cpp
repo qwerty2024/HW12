@@ -14,7 +14,7 @@ bool IsKPeriodic(const string &str)
         if (n % i == 0) // если строка не кратна количеству символов в подстроке, то сразу мимо
         {
             // выделяем подстроку
-            string tmp = str.substr(0, i); // выделим подстроку 
+            string tmp = str.substr(0, i); 
             //cout << tmp << endl;
             rez = true;
 
